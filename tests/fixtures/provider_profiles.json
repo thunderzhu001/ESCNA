@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "qwen": {
+      "provider": "qwen",
+      "model": "qwen3.7-flash-2026-07-15",
+      "api": "chat_completions",
+      "url": "https://example.invalid/qwen",
+      "key_env": "DASHSCOPE_API_KEY",
+      "accepted_response_models": ["qwen3.7-flash-2026-07-15"]
+    },
+    "deepseek": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-flash",
+      "api": "chat_completions",
+      "url": "https://example.invalid/deepseek",
+      "key_env": "DEEPSEEK_API_KEY",
+      "accepted_response_models": ["deepseek-v4-flash"]
+    },
+    "gemini": {
+      "provider": "gemini",
+      "model": "gemini-3.7-flash",
+      "api": "gemini_generate_content",
+      "url": "https://example.invalid/gemini",
+      "key_env": "GEMINI_API_KEY",
+      "accepted_response_models": ["gemini-3.7-flash"]
+    }
+  }
+}
