@@ -42,6 +42,10 @@ python examples/offline_demo.py
 
 The example and tests are offline and do not need credentials. The provider adapter reads API credentials from environment variables when used with a live provider; live calls require a separately configured profile and may incur charges. The example grants complete-brief access only to its synthetic scenario. In an actual deployment, private utility-based ranking requires explicit authorization for the underlying information.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Citation
 
 If this code helps your research, please cite this repository and, when available, the accompanying paper. For a stable reference to a particular code snapshot, use its GitHub commit URL. GitHub's **Cite this repository** button provides software citation metadata.

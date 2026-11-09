@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,7 +8,17 @@ version = "0.1.0"
 description = "Core mechanism-study implementation of the ESCNA multi-agent deliberation framework"
 readme = "README.md"
 requires-python = ">=3.10"
+authors = [{ name = "Ziyue Zhu" }]
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["multi-agent systems", "deliberation", "negotiation", "social choice", "computational argumentation"]
 dependencies = ["requests==2.32.5"]
+
+[project.urls]
+Homepage = "https://github.com/thunderzhu001/ESCNA"
+Repository = "https://github.com/thunderzhu001/ESCNA"
+Issues = "https://github.com/thunderzhu001/ESCNA/issues"
+"Interactive Platform" = "https://argdebate-graph.app.workbuddy.host/?sharecode=UZOTEP76TA"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

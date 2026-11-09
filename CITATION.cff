@@ -5,4 +5,6 @@ title: "ESCNA: Event-Sourced Collaborative Negotiation Architecture"
 authors:
   - family-names: Zhu
     given-names: Ziyue
+license: MIT
+repository-code: "https://github.com/thunderzhu001/ESCNA"
 url: "https://github.com/thunderzhu001/ESCNA"
