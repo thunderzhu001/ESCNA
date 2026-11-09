@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this software and, when available, the accompanying paper."
+type: software
+title: "ESCNA: Event-Sourced Collaborative Negotiation Architecture"
+authors:
+  - family-names: Zhu
+    given-names: Ziyue
+url: "https://github.com/thunderzhu001/ESCNA"
